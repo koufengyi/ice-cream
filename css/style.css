@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Jim+Nightshade");
+@import url("https://fonts.googleapis.com/css?family=Assistant:300");
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image:url('../image/bg.gif');
+  background-size:cover;
+  
+}
+
+.page-container {
+  width: 100vw;
+  height: 100vh;
+  
+}
+
+.page-content {
+  position:absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.btn-random {
+  font-family: 'Assistant', sans-serif;
+  
+  padding: .5rem;
+  outline: none;
+  font-size: .8rem;
+  background: #f4f4ef;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+#random-photo{
+  height:50vh;
+}
